@@ -1,0 +1,18 @@
+h1 {
+  font-family: roboto;
+  margin-left: 35px;
+}
+
+p {
+  font-family: roboto;
+  margin-left: 35px;
+}
+
+.header {
+  background: rgb(247, 239, 240);
+  height: 200px;
+}
+
+.hero {
+  padding-top: 25px;
+}
