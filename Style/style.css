@@ -1,16 +1,15 @@
 h1 {
   font-family: roboto;
-  margin-left: 100px;
 }
 
 p {
   font-family: roboto;
-  margin-left: 100px;
 }
 
 footer {
   height: 150px;
   background: rgb(245, 245, 238);
+  margin-top: 15px;
 }
 
 .header {
@@ -19,21 +18,38 @@ footer {
 
 .hero {
   padding-top: 25px;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
   margin-bottom: 45px;
-}
-
-.container {
-  padding-left: 0;
-  padding-right: 0;
 }
 
 .icons {
   text-align: right;
-  font-size: 55px;
+  font-size: 45px;
   padding-right: 45px;
+  padding-top: 40px;
+}
+
+.icons i {
+  padding-left: 15px;
+  color: rgb(129, 125, 125);
+}
+
+.icons i:hover {
   color: white;
 }
 
 img {
   width: 350px;
+}
+
+@media (max-width: 600px) {
+  img {
+    margin-bottom: 30px;
+  }
+
+  .header {
+    height: 15px;
+  }
 }
