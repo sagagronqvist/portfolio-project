@@ -1,18 +1,39 @@
 h1 {
   font-family: roboto;
-  margin-left: 35px;
+  margin-left: 100px;
 }
 
 p {
   font-family: roboto;
-  margin-left: 35px;
+  margin-left: 100px;
+}
+
+footer {
+  height: 150px;
+  background: rgb(245, 245, 238);
 }
 
 .header {
-  background: rgb(247, 239, 240);
-  height: 200px;
+  height: 100px;
 }
 
 .hero {
   padding-top: 25px;
+  margin-bottom: 45px;
+}
+
+.container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.icons {
+  text-align: right;
+  font-size: 55px;
+  padding-right: 45px;
+  color: white;
+}
+
+img {
+  width: 350px;
 }
