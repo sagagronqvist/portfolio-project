@@ -1,5 +1,6 @@
 h1 {
   font-family: roboto;
+  font-weight: 900;
 }
 
 p {
@@ -8,7 +9,7 @@ p {
 
 footer {
   height: 150px;
-  background: rgb(245, 245, 238);
+  background: rgb(255, 192, 207);
   margin-top: 15px;
 }
 
@@ -33,7 +34,7 @@ footer {
 
 .icons i {
   padding-left: 15px;
-  color: rgb(129, 125, 125);
+  color: rgb(0, 0, 0);
 }
 
 .icons i:hover {
@@ -42,7 +43,7 @@ footer {
 
 .signature {
   padding-left: 45px;
-  padding-top: 60px;
+  padding-top: 70px;
 }
 
 img {
