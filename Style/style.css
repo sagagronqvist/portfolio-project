@@ -60,20 +60,28 @@ body {
   width: 60%;
 }
 
-.icons {
+i {
+  padding-left: 10px;
+  color: rgb(255, 255, 255);
   text-align: right;
   font-size: 45px;
-  padding-right: 45px;
-  padding-top: 40px;
-}
-
-i {
-  padding-left: 15px;
-  color: rgb(255, 255, 255);
+  padding-right: 35px;
 }
 
 i:hover {
   color: rgb(250, 169, 183);
+}
+
+.footerContent {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.footerContent p {
+  padding-top: 3px;
 }
 
 @media (max-width: 600px) {
@@ -82,7 +90,7 @@ i:hover {
   }
 
   h1 {
-    font-size: 35px;
+    font-size: 32px;
     margin-bottom: 2px;
   }
 
@@ -112,20 +120,26 @@ i:hover {
     height: 170px;
   }
 
-  .icons {
-    padding-right: 0;
-    text-align: center;
-    padding-top: 2px;
-  }
-
   i {
     font-size: 45px;
+    padding-top: 2px;
+    padding-right: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
+
   .frontPageParagraph {
     margin-top: 0px;
     width: 65%;
   }
 
   .footerContent {
+    display: block;
+    padding-top: 25px;
+    text-align: center;
+  }
+
+  .footerContent p {
+    font-size: 12px;
   }
 }
