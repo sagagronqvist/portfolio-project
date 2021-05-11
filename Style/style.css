@@ -35,6 +35,21 @@ body {
   background-color: aliceblue;
 }
 
+a {
+  color: rgb(250, 169, 183);
+  text-decoration: none;
+}
+
+a:hover {
+  color: pink;
+  text-decoration: none;
+}
+
+.container {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
 .nav-link:hover {
   color: rgb(250, 169, 183) !important;
 }
@@ -58,6 +73,10 @@ body {
   margin-top: 50px;
   margin-bottom: 60px;
   width: 60%;
+}
+
+.aboutContent {
+  margin-right: 30px;
 }
 
 i {
@@ -101,7 +120,7 @@ i:hover {
 
   p {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 10px;
   }
 
   .header {
@@ -114,6 +133,17 @@ i:hover {
 
   .hero p {
     padding-top: 5px;
+  }
+
+  .container {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .aboutContent {
+    margin-right: 0px;
+    text-align: center;
+    margin-bottom: 20px;
   }
 
   footer {
@@ -141,5 +171,16 @@ i:hover {
 
   .footerContent p {
     font-size: 12px;
+  }
+}
+
+@media (min-width: 700px) {
+  .container {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .header {
+    height: 85px;
   }
 }
