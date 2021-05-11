@@ -66,6 +66,18 @@ a:hover {
   margin-bottom: 45px;
 }
 
+.contactBox {
+  padding-top: 25px;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.contactBox p {
+  text-align: left;
+}
+
 .frontPageParagraph {
   display: block;
   margin: 0 auto;
@@ -144,6 +156,10 @@ i:hover {
     margin-right: 0px;
     text-align: center;
     margin-bottom: 20px;
+  }
+
+  .contactBox {
+    margin-top: 20px;
   }
 
   footer {
