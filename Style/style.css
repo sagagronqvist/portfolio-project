@@ -79,6 +79,7 @@ a:hover {
   display: block;
   margin: 0 auto;
   margin-bottom: 120px;
+  flex: 1;
 }
 
 .contactBox p {
