@@ -42,12 +42,12 @@ body {
 }
 
 a {
-  color: rgb(250, 169, 183);
+  color: rgb(92, 181, 253);
   text-decoration: none;
 }
 
 a:hover {
-  color: pink;
+  color: rgb(176, 218, 252);
   text-decoration: none;
 }
 
@@ -62,6 +62,26 @@ a:hover {
 
 .header {
   height: 100px;
+}
+
+.frontpageButton {
+  color: white;
+  background: #77c4f0;
+  border: none;
+  padding: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: 5px;
+  border-radius: 2px;
+}
+
+.frontpageButton:hover {
+  background: #9cdbff;
+  color: white;
+}
+
+.frontpageContent p {
+  width: 50%;
 }
 
 .hero {
@@ -84,6 +104,15 @@ a:hover {
 
 .contactBox p {
   text-align: left;
+  padding-left: 15px;
+}
+
+.contactBox a {
+  padding-left: 15px;
+}
+
+.contactBox img {
+  width: 300px;
 }
 
 .frontPageParagraph {
@@ -153,11 +182,16 @@ i:hover {
 
   .hero p {
     padding-top: 5px;
+    text-align: left;
   }
 
   .container {
     margin-top: 0px;
     margin-bottom: 0px;
+  }
+
+  .frontpageContent p {
+    width: 100%;
   }
 
   .aboutContent {
@@ -168,6 +202,20 @@ i:hover {
 
   .contactBox {
     margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  .contactBox img {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+
+  .contactBox p {
+    padding-left: 0px;
+  }
+
+  .contactBox a {
+    padding-left: 0px;
   }
 
   footer {
