@@ -232,7 +232,8 @@ i:hover {
 
   .frontPageParagraph {
     margin-top: 0px;
-    width: 65%;
+    width: 75%;
+    margin-bottom: 45px;
   }
 
   .footerContent {
