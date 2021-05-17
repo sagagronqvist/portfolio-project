@@ -60,8 +60,21 @@ a:hover {
   color: rgb(250, 169, 183) !important;
 }
 
-.header {
+.spacer {
   height: 100px;
+}
+
+.frontpageFlex {
+  flex: 1;
+}
+
+.frontpageHeadline {
+  flex: 1;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 45px;
+  margin-top: 60px;
 }
 
 .frontpageButton {
@@ -82,13 +95,17 @@ a:hover {
   color: white;
 }
 
-.frontpageContent p {
-  width: 50%;
+.frontpageImg img {
+  border-radius: 200px;
+  margin-bottom: 45px;
 }
 
-.hero {
+.frontpageContent p {
+  width: 90%;
+}
+
+.headline {
   flex: 1;
-  padding-top: 25px;
   width: 80%;
   display: block;
   margin: 0 auto;
@@ -117,11 +134,11 @@ a:hover {
   width: 300px;
 }
 
-.frontPageParagraph {
+.workPageParagraph {
   display: block;
   margin: 0 auto;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 25px;
   margin-bottom: 60px;
   width: 60%;
 }
@@ -154,6 +171,17 @@ i:hover {
   padding-top: 3px;
 }
 
+@media (min-width: 700px) {
+  .container {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .spacer {
+    height: 85px;
+  }
+}
+
 @media (max-width: 600px) {
   img {
     margin-bottom: 30px;
@@ -174,15 +202,16 @@ i:hover {
     padding-top: 10px;
   }
 
-  .header {
+  .spacer {
     height: 15px;
   }
 
-  .hero {
+  .headline {
     margin-bottom: 30px;
+    padding-top: 45px;
   }
 
-  .hero p {
+  .headline p {
     padding-top: 5px;
     text-align: left;
   }
@@ -194,6 +223,11 @@ i:hover {
 
   .frontpageContent p {
     width: 100%;
+  }
+
+  .frontpageHeadline {
+    text-align: center;
+    margin-top: 40px;
   }
 
   .aboutContent {
@@ -232,7 +266,7 @@ i:hover {
     padding-right: 10px;
   }
 
-  .frontPageParagraph {
+  .workPageParagraph {
     margin-top: 0px;
     width: 75%;
     margin-bottom: 45px;
@@ -246,16 +280,5 @@ i:hover {
 
   .footerContent p {
     font-size: 12px;
-  }
-}
-
-@media (min-width: 700px) {
-  .container {
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-
-  .header {
-    height: 85px;
   }
 }
